@@ -2,8 +2,6 @@
   "name": "WEAK#",
   "version": "1.0",
   "manifest_version": 2,
-  "permissions": ["https://*.google.com/"],
-  "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
   "description": "Display the current week number",
   "browser_action": {
     "default_icon": "icon.png",
