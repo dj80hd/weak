@@ -21,3 +21,5 @@ Date.prototype.getWeekYear = function() {
     date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);
     return date.getFullYear();
 }
+chrome.browserAction.setBadgeText({ text: '' + (new Date()).getWeek() + '' });
+chrome.browserAction.setBadgeBackgroundColor({color: '#777' });

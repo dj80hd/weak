@@ -9,11 +9,12 @@
  */
 function show_me_the_week_number() {
     var d =  new Date();
-    var s = "#" + d.getWeek();
+    var s = "WEEK #" + d.getWeek();
     var e = document.createTextNode(s);
     document.body.appendChild(e);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
     show_me_the_week_number();
+
 });
